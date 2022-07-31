@@ -1,0 +1,236 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-img{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.navbar{
+    background: transparent;
+}
+.zomato
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    transition: all 1.4s ease 0s;
+    align-items: center;
+}
+.zomato img
+{
+    width: 260px;
+    height: 60px;
+    margin-top: 0px;
+}
+#para1{
+    margin-top: 40px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-box{
+    width: 440px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.search-btn{
+    width: 130px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#second-section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.card img{
+    height:150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+    cursor: pointer;
+}
+#third-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.card-collection1{
+    width: 100%;
+    height: 325px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.6)), url('https://i.pinimg.com/736x/02/a3/96/02a396cabe0a37e8d7b8a56787f32c15.jpg');
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    color: white;
+    
+}
+.card-collection1 h5{
+    
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    cursor: pointer;
+
+}
+.card-collection2{
+    width: 100%;
+    height: 325px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.6)) ,url('https://b.zmtcdn.com/data/collections/01bbb819c27dcb298ea033150d0a195d_1625812800.jpg');
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    color: white;
+    
+}
+.card-collection2 h5{
+    
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    cursor: pointer;
+}
+.card-collection3{
+    width: 100%;
+    height: 325px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.6)), url('https://b.zmtcdn.com/data/collections/2838d9e0e483ad38b4a7b9ea708cdc39_1551089043.jpg');
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    color: white;
+   
+}
+.card-collection3 h5{
+    
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    cursor: pointer;
+}
+.card-collection4{
+    width: 100%;
+    height: 325px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.6)), url('https://b.zmtcdn.com/data/collections/440f70669ea92883435010dedc85f8c5_1611749537.jpg?output-format=webp');
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    color: white;
+   
+}
+.card-collection4 h5{
+    
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    cursor: pointer;  
+}
+.hd-para{
+    margin-left:-10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#pop-locations{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+.locations-div{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.locations-div:hover{
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.bar-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+   
+
+}
+.bar{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 70px;
+    margin-top:20px ;
+    cursor: pointer;
+}
+.bar i:hover{
+    text-shadow: 1px 1px 5px gray;
+   
+}
+.bar:hover{
+   box-shadow: 1px 1px 5px #ccc;
+}
+#get-zomato{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(253, 244, 246);
+}
+.email-input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.download-link{
+    cursor: pointer;
+}
+.footer-div1 img{
+  width: 100px;
+  height: 30px;
+}
+.list1{
+    font-size: 18px;
+    text-align: start;
+}
+.hd1{
+    text-align: start;
+}
